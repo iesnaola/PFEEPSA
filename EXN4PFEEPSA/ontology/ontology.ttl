@@ -1,0 +1,137 @@
+@prefix : <https://w3id.org/pfeepsa/exn4pfeepsa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/pfeepsa/exn4pfeepsa> a owl:Ontology ;
+	owl:imports <https://w3id.org/eepsa/exn4eepsa> ;
+	owl:versionInfo "1.0"^^xsd:decimal ;
+	<http://purl.org/dc/terms/issued> "2018-12-02"^^xsd:string ;
+	<http://purl.org/dc/terms/contributor> """Izaskun Fernandez <mailto:izaskun.fernandez@tekniker.es>
+Aitor Arnaiz <mailto:aitor.arnaiz@tekniker.es>"""^^xsd:string ;
+	<http://purl.org/dc/terms/description> "This ontology module specializes the Executor terminology of the eep:Execution class for the PFEEPSA Ontology."@en ;
+	<http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/pfeepsa/exr4pfeepsa> ;
+	<http://purl.org/vocab/vann/preferredNamespacePrefix> "exn4pfeepsa"@en ;
+	<http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-nc/4.0/> ;
+	<http://purl.org/dc/terms/creator> """Iker Esnaola-Gonzalez <mailto:iker.esnaola@tekniker.es>
+Jesús Bermúdez <mailto:jesus.bermudez@ehu.eus>"""^^xsd:string ;
+	<http://purl.org/dc/terms/title> "Execution ontology module for the PFEEPSA Ontology"^^xsd:string ;
+	<http://purl.org/dc/terms/created> "2018-09-30"^^xsd:string ;
+	<http://purl.org/ontology/bibo/status> "Work in Progress"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+
+<http://creativecommons.org/ns#license> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/elements/1.1/creator
+
+<http://purl.org/dc/elements/1.1/creator> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/contributor
+
+<http://purl.org/dc/terms/contributor> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/created
+
+<http://purl.org/dc/terms/created> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/creator
+
+<http://purl.org/dc/terms/creator> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/description
+
+<http://purl.org/dc/terms/description> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/issued
+
+<http://purl.org/dc/terms/issued> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/modified
+
+<http://purl.org/dc/terms/modified> a owl:AnnotationProperty .
+# 
+# http://purl.org/dc/terms/title
+
+<http://purl.org/dc/terms/title> a owl:AnnotationProperty .
+# 
+# http://purl.org/ontology/bibo/status
+
+<http://purl.org/ontology/bibo/status> a owl:AnnotationProperty .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+
+<http://purl.org/vocab/vann/preferredNamespacePrefix> a owl:AnnotationProperty .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+
+<http://purl.org/vocab/vann/preferredNamespaceUri> a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> a owl:AnnotationProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocommons/voaf#Vocabulary
+
+<http://purl.org/vocommons/voaf#Vocabulary> a owl:Class .
+# 
+# https://w3id.org/pfeepsa/exn4pfeepsa#HighThermalDiscomfort
+
+<https://w3id.org/pfeepsa/exn4pfeepsa#HighThermalDiscomfort> a owl:Class ;
+	rdfs:subClassOf <https://w3id.org/eepsa/exn4eepsa#Observation> ;
+	rdfs:comment "An observation representing a high discomfort with regards to the thermal comfort."@en ;
+	rdfs:isDefinedBy <https://w3id.org/pfeepsa/exn4pfeepsa> ;
+	rdfs:label "High Thermal Discomfort"@en ;
+	<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/pfeepsa/exn4pfeepsa#ModerateThermalDiscomfort
+
+<https://w3id.org/pfeepsa/exn4pfeepsa#ModerateThermalDiscomfort> a owl:Class ;
+	rdfs:subClassOf <https://w3id.org/eepsa/exn4eepsa#Observation> ;
+	rdfs:comment "An observation representing a moderate discomfort with regards to the thermal comfort."@en ;
+	rdfs:isDefinedBy <https://w3id.org/pfeepsa/exn4pfeepsa> ;
+	rdfs:label "Moderate Thermal Discomfort"@en ;
+	<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/pfeepsa/exn4pfeepsa#SevereThermalDiscomfort
+
+<https://w3id.org/pfeepsa/exn4pfeepsa#SevereThermalDiscomfort> a owl:Class ;
+	rdfs:subClassOf <https://w3id.org/eepsa/exn4eepsa#Observation> ;
+	rdfs:comment "An observation representing a severe discomfort with regards to the thermal comfort."@en ;
+	rdfs:isDefinedBy <https://w3id.org/pfeepsa/exn4pfeepsa> ;
+	rdfs:label "Severe Thermal Discomfort"@en ;
+	<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/pfeepsa/exn4pfeepsa#
+
+<https://w3id.org/pfeepsa/exn4pfeepsa#> a owl:NamedIndividual , <http://purl.org/vocommons/voaf#Vocabulary> .
+# 
+# Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi

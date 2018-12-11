@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/pfeepsa/ek4pfeepsa#"
+     xml:base="https://w3id.org/pfeepsa/ek4pfeepsa"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ns1="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://w3id.org/pfeepsa/ek4pfeepsa">
+		<owl:imports rdf:resource="https://iesnaola.github.io/eepsa/EK4EEPSA/ontology/ontology.ttl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-11</terms:issued>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ek4eepsa</vann:preferredNamespacePrefix>
+        <terms:description xml:lang="en">Expert knowledge for the PFEEPSA Ontology</terms:description>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-11</terms:created>
+        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izaskun Fernandez &lt;mailto:izaskun.fernandez@tekniker.es&gt;
+Aitor Arnaiz &lt;mailto:aitor.arnaiz@tekniker.es&gt;</terms:contributor>
+        <ns1:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iker Esnaola-Gonzalez &lt;mailto:iker.esnaola@tekniker.es&gt;
+Jesús Bermúdez &lt;mailto:jesus.bermudez@ehu.eus&gt;</terms:creator>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/pfeepsa/ek4pfeepsa"/>
+        <terms:title xml:lang="en">Expert Knowledge module for the PFEEPSA Ontology.</terms:title>
+        <terms:description xml:lang="en">This ontology module covers the expert knowledge for the PFEEPSA Ontology.</terms:description>
+        <bibo:status xml:lang="en">Work in Progress</bibo:status>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/based_near -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/based_near"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/affectedBy#affectedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#affectedBy"/>
+    
+
+
+    <!-- https://w3id.org/affectedBy#influencedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/affectedBy#influencedBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+    <owl:Class rdf:about="http://purl.org/vocommons/voaf#Vocabulary"/>
+    
+
+
+    <!-- https://w3id.org/bot#Space -->
+
+    <owl:Class rdf:about="https://w3id.org/bot#Space"/>
+    
+
+
+    <!-- https://w3id.org/eepsa/q4eepsa#IndoorHumidity -->
+
+    <owl:Class rdf:about="https://w3id.org/eepsa/q4eepsa#IndoorHumidity"/>
+    
+
+
+    <!-- https://w3id.org/eepsa/q4eepsa#IndoorTemperature -->
+
+    <owl:Class rdf:about="https://w3id.org/eepsa/q4eepsa#IndoorTemperature"/>
+    
+
+
+    <!-- https://w3id.org/eepsa/q4eepsa#SolarRadiation -->
+
+    <owl:Class rdf:about="https://w3id.org/eepsa/q4eepsa#SolarRadiation"/>
+    
+
+
+    <!-- https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace -->
+
+    <owl:Class rdf:about="https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Space"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/affectedBy#influencedBy"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpaceIndoorTemperature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A space aimed at breeding animals.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pfeepsa/ek4pfeepsa"/>
+        <rdfs:label xml:lang="en">Breeding Space</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpaceIndoorTemperature -->
+
+    <owl:Class rdf:about="https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpaceIndoorTemperature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/eepsa/q4eepsa#IndoorTemperature"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/affectedBy#affectedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/eepsa/q4eepsa#IndoorHumidity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/affectedBy#affectedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/eepsa/q4eepsa#SolarRadiation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/affectedBy#affectedBy"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/pfeepsa/q4pfeepsa#StockingDensity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Temperature within a breeding space.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/pfeepsa/ek4pfeepsa"/>
+        <rdfs:label xml:lang="en">Breeding Space Indoor Temperature</rdfs:label>
+        <ns:term_status>stable</ns:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/pfeepsa/q4pfeepsa#StockingDensity -->
+
+    <owl:Class rdf:about="https://w3id.org/pfeepsa/q4pfeepsa#StockingDensity"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/pfeepsa/ek4pfeepsa# -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pfeepsa/ek4pfeepsa#">
+        <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
