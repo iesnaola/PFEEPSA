@@ -1,0 +1,158 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+_:genid1526080300 a owl:Ontology .
+
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.tekniker.es/iof2020#farm_012
+
+<http://www.tekniker.es/iof2020#farm_012> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#PoultryHousing> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_drinker_01
+
+<http://www.tekniker.es/iof2020#farm_012_drinker_01> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Drinker> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_drinker_02
+
+<http://www.tekniker.es/iof2020#farm_012_drinker_02> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Drinker> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_drinker_03
+
+<http://www.tekniker.es/iof2020#farm_012_drinker_03> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Drinker> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_drinker_04
+
+<http://www.tekniker.es/iof2020#farm_012_drinker_04> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Drinker> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_drinker_05
+
+<http://www.tekniker.es/iof2020#farm_012_drinker_05> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Drinker> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_01
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_01> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_02
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_02> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_03
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_03> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_04
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_04> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_05
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_05> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_06
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_06> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_07
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_07> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_08
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_08> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_09
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_09> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_10
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_10> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_11
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_11> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_12
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_12> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_13
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_13> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_14
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_14> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_15
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_15> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_16
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_16> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_17
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_17> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_sensor_18
+
+<http://www.tekniker.es/iof2020#farm_012_sensor_18> a owl:NamedIndividual , <https://w3id.org/eepsa/exr4eepsa#HumiditySensor> , <https://w3id.org/eepsa/exr4eepsa#TemperatureSensor> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_trough_01
+
+<http://www.tekniker.es/iof2020#farm_012_trough_01> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Trough> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_trough_02
+
+<http://www.tekniker.es/iof2020#farm_012_trough_02> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Trough> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_trough_03
+
+<http://www.tekniker.es/iof2020#farm_012_trough_03> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Trough> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_trough_04
+
+<http://www.tekniker.es/iof2020#farm_012_trough_04> a owl:NamedIndividual , <https://w3id.org/pfeepsa/foi4pfeepsa#Trough> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_zone_01
+
+<http://www.tekniker.es/iof2020#farm_012_zone_01> a owl:NamedIndividual , <https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace> ;
+	<https://w3id.org/bot#containsElement> <http://www.tekniker.es/iof2020#farm_012_drinker_01> , <http://www.tekniker.es/iof2020#farm_012_drinker_02> , <http://www.tekniker.es/iof2020#farm_012_sensor_01> , <http://www.tekniker.es/iof2020#farm_012_sensor_02> , <http://www.tekniker.es/iof2020#farm_012_sensor_04> , <http://www.tekniker.es/iof2020#farm_012_sensor_06> , <http://www.tekniker.es/iof2020#farm_012_trough_01> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_zone_02
+
+<http://www.tekniker.es/iof2020#farm_012_zone_02> a owl:NamedIndividual , <https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace> ;
+	<https://w3id.org/bot#containsElement> <http://www.tekniker.es/iof2020#farm_012_drinker_01> , <http://www.tekniker.es/iof2020#farm_012_drinker_02> , <http://www.tekniker.es/iof2020#farm_012_sensor_03> , <http://www.tekniker.es/iof2020#farm_012_sensor_05> , <http://www.tekniker.es/iof2020#farm_012_sensor_07> , <http://www.tekniker.es/iof2020#farm_012_trough_01> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_zone_03
+
+<http://www.tekniker.es/iof2020#farm_012_zone_03> a owl:NamedIndividual , <https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace> ;
+	<https://w3id.org/bot#containsElement> <http://www.tekniker.es/iof2020#farm_012_drinker_03> , <http://www.tekniker.es/iof2020#farm_012_sensor_08> , <http://www.tekniker.es/iof2020#farm_012_sensor_10> , <http://www.tekniker.es/iof2020#farm_012_sensor_12> , <http://www.tekniker.es/iof2020#farm_012_trough_02> , <http://www.tekniker.es/iof2020#farm_012_trough_03> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_zone_04
+
+<http://www.tekniker.es/iof2020#farm_012_zone_04> a owl:NamedIndividual , <https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace> ;
+	<https://w3id.org/bot#containsElement> <http://www.tekniker.es/iof2020#farm_012_drinker_03> , <http://www.tekniker.es/iof2020#farm_012_sensor_09> , <http://www.tekniker.es/iof2020#farm_012_sensor_11> , <http://www.tekniker.es/iof2020#farm_012_sensor_13> , <http://www.tekniker.es/iof2020#farm_012_trough_02> , <http://www.tekniker.es/iof2020#farm_012_trough_03> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_zone_05
+
+<http://www.tekniker.es/iof2020#farm_012_zone_05> a owl:NamedIndividual , <https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace> ;
+	<https://w3id.org/bot#containsElement> <http://www.tekniker.es/iof2020#farm_012_drinker_04> , <http://www.tekniker.es/iof2020#farm_012_drinker_05> , <http://www.tekniker.es/iof2020#farm_012_sensor_14> , <http://www.tekniker.es/iof2020#farm_012_sensor_16> , <http://www.tekniker.es/iof2020#farm_012_sensor_18> , <http://www.tekniker.es/iof2020#farm_012_trough_04> .
+# 
+# http://www.tekniker.es/iof2020#farm_012_zone_06
+
+<http://www.tekniker.es/iof2020#farm_012_zone_06> a owl:NamedIndividual , <https://w3id.org/pfeepsa/ek4pfeepsa#BreedingSpace> ;
+	<https://w3id.org/bot#containsElement> <http://www.tekniker.es/iof2020#farm_012_drinker_04> , <http://www.tekniker.es/iof2020#farm_012_drinker_05> , <http://www.tekniker.es/iof2020#farm_012_sensor_15> , <http://www.tekniker.es/iof2020#farm_012_sensor_17> , <http://www.tekniker.es/iof2020#farm_012_trough_04> .
+# 
