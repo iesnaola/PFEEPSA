@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/eepsa#"
-     xml:base="https://w3id.org/eepsa"
+<rdf:RDF xmlns="https://w3id.org/pfeepsa#"
+     xml:base="https://w3id.org/pfeepsa"
      xmlns:schema="http://schema.org/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -14,7 +14,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://w3id.org/eepsa#">
+    <owl:Ontology rdf:about="https://w3id.org/pfeepsa#">
         <terms:issued xml:lang="en">2018-12-11</terms:issued>
         <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
         <vann:preferredNamespaceUri rdf:resource="https://w3id.org/pfeepsa"/>
@@ -25,8 +25,7 @@ Aitor Arnaiz &lt;mailto:aitor.arnaiz@tekniker.es&gt;</terms:contributor>
         <ns1:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iker Esnaola-Gonzalez &lt;mailto:iker.esnaola@tekniker.es&gt;
 Jesús Bermúdez &lt;mailto:jesus.bermudez@ehu.eus&gt;</terms:creator>
-        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PFEEPSA Ontology</terms:description>
-        <terms:description xml:lang="en">This ontology imports all the ontology modules and ODPs that form the PFEEPSA Ontology.</terms:description>
+        <terms:description xml:lang="en">This ontology imports all the ontology modules and ODPs that form the PFEEPSA Ontology. The PFEEPSA ontology was developed in the context of the IoF2020 H2020 project, with the aim of capturing all the necessary knowledge to support data analysts in the development of a system that warns farmers about potential future situations which may be uncomfortable or even harmful for animals. </terms:description>
         <bibo:status xml:lang="en">Work in Progress</bibo:status>
         <terms:title xml:lang="en">The PFEEPSA Ontology.</terms:title>
     </owl:Ontology>

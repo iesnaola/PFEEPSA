@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/eepsa#"
-     xml:base="https://w3id.org/eepsa"
+<rdf:RDF xmlns="https://w3id.org/pfeepsa#"
+     xml:base="https://w3id.org/pfeepsa"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,15 +12,14 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://w3id.org/eepsa#">
+    <owl:Ontology rdf:about="https://w3id.org/pfeepsa#">
         <ns:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
         <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izaskun Fernandez &lt;mailto:izaskun.fernandez@tekniker.es&gt;
 Aitor Arnaiz &lt;mailto:aitor.arnaiz@tekniker.es&gt;</terms:contributor>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-11</terms:created>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iker Esnaola-Gonzalez &lt;mailto:iker.esnaola@tekniker.es&gt;
 Jesús Bermúdez &lt;mailto:jesus.bermudez@ehu.eus&gt;</terms:creator>
-        <terms:description xml:lang="en">This ontology imports all the ontology modules and ODPs that form the PFEEPSA Ontology.</terms:description>
-        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PFEEPSA Ontology</terms:description>
+        <terms:description xml:lang="en">This ontology imports all the ontology modules and ODPs that form the PFEEPSA Ontology. The PFEEPSA ontology was developed in the context of the IoF2020 H2020 project, with the aim of capturing all the necessary knowledge to support data analysts in the development of a system that warns farmers about potential future situations which may be uncomfortable or even harmful for animals. </terms:description>
         <terms:issued xml:lang="en">2018-12-11</terms:issued>
         <terms:title xml:lang="en">The PFEEPSA Ontology.</terms:title>
         <bibo:status xml:lang="en">Work in Progress</bibo:status>

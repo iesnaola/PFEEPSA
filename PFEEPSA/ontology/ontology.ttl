@@ -1,26 +1,25 @@
-@prefix : <https://w3id.org/eepsa##> .
+@prefix : <https://w3id.org/pfeepsa##> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/eepsa#> .
+@base <https://w3id.org/pfeepsa#> .
 
-<https://w3id.org/eepsa#> rdf:type owl:Ontology ;
-                           <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-nc/4.0/> ;
-                           <http://purl.org/dc/terms/contributor> """Izaskun Fernandez <mailto:izaskun.fernandez@tekniker.es>
+<https://w3id.org/pfeepsa#> rdf:type owl:Ontology ;
+                             <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-nc/4.0/> ;
+                             <http://purl.org/dc/terms/contributor> """Izaskun Fernandez <mailto:izaskun.fernandez@tekniker.es>
 Aitor Arnaiz <mailto:aitor.arnaiz@tekniker.es>"""^^xsd:string ;
-                           <http://purl.org/dc/terms/created> "2018-12-11"^^xsd:string ;
-                           <http://purl.org/dc/terms/creator> """Iker Esnaola-Gonzalez <mailto:iker.esnaola@tekniker.es>
+                             <http://purl.org/dc/terms/created> "2018-12-11"^^xsd:string ;
+                             <http://purl.org/dc/terms/creator> """Iker Esnaola-Gonzalez <mailto:iker.esnaola@tekniker.es>
 Jesús Bermúdez <mailto:jesus.bermudez@ehu.eus>"""^^xsd:string ;
-                           <http://purl.org/dc/terms/description> "This ontology imports all the ontology modules and ODPs that form the PFEEPSA Ontology."@en ,
-                                                                  "The PFEEPSA Ontology"^^xsd:string ;
-                           <http://purl.org/dc/terms/issued> "2018-12-11"@en ;
-                           <http://purl.org/dc/terms/title> "The PFEEPSA Ontology."@en ;
-                           <http://purl.org/ontology/bibo/status> "Work in Progress"@en ;
-                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "pfeepsa"@en ;
-                           <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/pfeepsa> ;
-                           owl:versionInfo "1.0"@en .
+                             <http://purl.org/dc/terms/description> "This ontology imports all the ontology modules and ODPs that form the PFEEPSA Ontology. The PFEEPSA ontology was developed in the context of the IoF2020 H2020 project, with the aim of capturing all the necessary knowledge to support data analysts in the development of a system that warns farmers about potential future situations which may be uncomfortable or even harmful for animals. "@en ;
+                             <http://purl.org/dc/terms/issued> "2018-12-11"@en ;
+                             <http://purl.org/dc/terms/title> "The PFEEPSA Ontology."@en ;
+                             <http://purl.org/ontology/bibo/status> "Work in Progress"@en ;
+                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "pfeepsa"@en ;
+                             <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/pfeepsa> ;
+                             owl:versionInfo "1.0"@en .
 
 #################################################################
 #    Annotation properties
